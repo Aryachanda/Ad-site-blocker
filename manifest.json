@@ -1,0 +1,16 @@
+{
+    "name": "Ad-blocker",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "Blocks Ad sites",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/ad-logo_16x16.png",
+        "48": "icons/ad-logo_48x48.png",
+        "128": "icons/ad-logo_128x128.png"
+    }
+    
+}
